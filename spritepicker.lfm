@@ -1,0 +1,46 @@
+object frmSpritePicker: TfrmSpritePicker
+  Left = 2562
+  Height = 480
+  Top = 342
+  Width = 640
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Sprite Picker'
+  ClientHeight = 480
+  ClientWidth = 640
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '0.9.30'
+  object imgTexture: TImage
+    Cursor = crArrow
+    Left = 3
+    Height = 432
+    Top = 4
+    Width = 634
+    OnMouseDown = imgTextureMouseDown
+    OnMouseMove = imgTextureMouseMove
+    OnMouseUp = imgTextureMouseUp
+  end
+  object cmdOk: TButton
+    Left = 554
+    Height = 25
+    Top = 447
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = '&Accept'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object cmdCancel: TButton
+    Left = 474
+    Height = 25
+    Top = 446
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = '&Cancel'
+    ModalResult = 2
+    TabOrder = 1
+  end
+end

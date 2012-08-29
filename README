@@ -1,0 +1,5 @@
+This is very much a work in progress of a configuration tool for Drumpster (http://iwasdeportedandalligotwasthislousydomain.co.uk/static.php?page=drumpster)
+
+You either point to a Drumpster executable or a song file, then you are able to alter settings for it and save them out to a configuration file.
+
+Barely any of the fields work yet, but it's good to have somewhere to start.
